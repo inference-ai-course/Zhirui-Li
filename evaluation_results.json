@@ -1,0 +1,71 @@
+{
+  "semantic": {
+    "average_recall": 0.0,
+    "queries": [
+      {
+        "query": "machine learning",
+        "recall": 0.0,
+        "hits": 0,
+        "relevant": 3
+      },
+      {
+        "query": "neural network",
+        "recall": 0.0,
+        "hits": 0,
+        "relevant": 3
+      },
+      {
+        "query": "deep learning",
+        "recall": 0.0,
+        "hits": 0,
+        "relevant": 3
+      }
+    ]
+  },
+  "keyword": {
+    "average_recall": 0.1111111111111111,
+    "queries": [
+      {
+        "query": "machine learning",
+        "recall": 0.0,
+        "hits": 0,
+        "relevant": 3
+      },
+      {
+        "query": "neural network",
+        "recall": 0.3333333333333333,
+        "hits": 1,
+        "relevant": 3
+      },
+      {
+        "query": "deep learning",
+        "recall": 0.0,
+        "hits": 0,
+        "relevant": 3
+      }
+    ]
+  },
+  "hybrid": {
+    "average_recall": 0.0,
+    "queries": [
+      {
+        "query": "machine learning",
+        "recall": 0.0,
+        "hits": 0,
+        "relevant": 3
+      },
+      {
+        "query": "neural network",
+        "recall": 0.0,
+        "hits": 0,
+        "relevant": 3
+      },
+      {
+        "query": "deep learning",
+        "recall": 0.0,
+        "hits": 0,
+        "relevant": 3
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+[
+  {
+    "question": "What Python projects has this person contributed to?",
+    "answer": "Based on the retrieved context, here are the Python-related projects and contributions this person has been involved in:\n\n1. **RESTful APIs at Knewton** \u2013 Worked alongside another developer to implement RESTful APIs in **Django**, which helped the internal analytics team increase reporting speed by 24%. [sample_resume.pdf]\n\n2. **Data Pipelines at DoorDash** \u2013 Built and maintained data pipelines using ingested data, which led to discovering an opportunity for a new site feature, boosting revenue by 6%. [sample_resume.pdf]\n\n3. **Cryptocurrency Tracker (Solo Project)** \u2013 Built a full-stack application featuring API integrations for real-time crypto price data, **PostgreSQL** for storage, and **D3.js** for dynamic chart visualizations. [portfolio_notes.txt]\n\n4. **Open-Source Python Utilities** \u2013 Maintains a personal GitHub where they contribute to open-source Python utilities and experiment with automation tools. [portfolio_notes.txt]\n\n5. **Django Tutorials** \u2013 Occasionally writes tutorials on using **Django** with cloud-native databases. [portfolio_notes.txt]",
+    "sources": [
+      "portfolio_notes.txt",
+      "portfolio_notes.txt",
+      "sample_resume.pdf",
+      "sample_resume.pdf"
+    ],
+    "faithfulness": 1.0,
+    "context_precision": 0.583
+  },
+  {
+    "question": "List the main technical skills with approximate years of experience.",
+    "answer": "Based on the available context, here are the main technical skills listed. However, I should note that **exact years of experience per skill are not explicitly stated** in the sources \u2014 only employment dates are provided, so I can offer rough estimates based on work history:\n\n---\n\n### Technical Skills (with approximate experience estimates):\n\n| Skill | Notes on Experience |\n|---|---|\n| **Python (Django)** | Current role at DoorDash started Sept 2017 \u2014 ~7+ years |\n| **SQL (PostgreSQL, Oracle)** | Used at DoorDash and in personal projects |\n| **AWS (Redshift, S3)** | Used in data pipeline work at DoorDash |\n| **JavaScript (Angular)** | Used at DoorDash for frontend components |\n| **HTML/CSS** | Listed as a core skill |\n| **REST APIs (GraphQL)** | Listed as a core skill |\n\n---\n\n**Important caveat:** The sources list these skills and confirm they were used professionally, but do **not** break down specific years of experience for each individual skill. The estimates above are inferred from employment timelines, not explicitly stated.\n\n[sample_resume.pdf] [portfolio_notes.txt]",
+    "sources": [
+      "sample_resume.pdf",
+      "portfolio_notes.txt",
+      "portfolio_notes.txt",
+      "portfolio_notes.txt"
+    ],
+    "faithfulness": 0.88,
+    "context_precision": 1.0
+  },
+  {
+    "question": "Which projects involved NLP or AI?",
+    "answer": "Based on the retrieved context, I don't know \u2014 that information isn't in my sources. The only project specifically described in the available context is the **Cryptocurrency Price Tracker**, which involved API integrations, PostgreSQL, and D3.js visualizations. No projects involving NLP or AI are mentioned. [sample_resume.pdf] [portfolio_notes.txt]",
+    "sources": [
+      "sample_resume.pdf",
+      "portfolio_notes.txt",
+      "sample_resume.pdf",
+      "portfolio_notes.txt"
+    ],
+    "faithfulness": 0.75,
+    "context_precision": 0.0
+  },
+  {
+    "question": "What was their most recent job title and company?",
+    "answer": "Based on the retrieved context, their most recent job title was **Python Developer** at **DoorDash**, where they have been working from September 2017 to current, based in Detroit, MI. [sample_resume.pdf]",
+    "sources": [
+      "portfolio_notes.txt",
+      "sample_resume.pdf",
+      "portfolio_notes.txt",
+      "sample_resume.pdf"
+    ],
+    "faithfulness": 0.833,
+    "context_precision": 1.0
+  },
+  {
+    "question": "What relational databases do they have experience with?",
+    "answer": "Based on the retrieved context, they have experience with the following relational databases:\n\n- **PostgreSQL** \u2014 listed under skills and also used in the Cryptocurrency Tracker project for storage\n- **Oracle** \u2014 listed under skills\n\nBoth are mentioned as part of their SQL expertise. [sample_resume.pdf] [portfolio_notes.txt]",
+    "sources": [
+      "sample_resume.pdf",
+      "portfolio_notes.txt",
+      "portfolio_notes.txt",
+      "sample_resume.pdf"
+    ],
+    "faithfulness": 0.75,
+    "context_precision": 1.0
+  }
+]

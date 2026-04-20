@@ -1,0 +1,69 @@
+{
+  "question": "What machine learning frameworks does this candidate know?",
+  "faithfulness": 0.889,
+  "answer_relevancy": 0.888,
+  "context_precision": 0.0,
+  "details": {
+    "faithfulness": {
+      "score": 0.889,
+      "claims": [
+        "The candidate's listed skills include HTML/CSS.",
+        "The candidate's listed skills include SQL.",
+        "The candidate has experience with PostgreSQL.",
+        "The candidate has experience with Oracle.",
+        "The candidate's listed skills include JavaScript.",
+        "The candidate has experience with Angular.",
+        "The candidate's listed skills include Python.",
+        "The candidate has experience with Django.",
+        "The candidate's listed skills include REST APIs.",
+        "The candidate has experience with GraphQL.",
+        "The candidate's listed skills include AWS.",
+        "The candidate has experience with Redshift.",
+        "The candidate has experience with S3.",
+        "No machine learning frameworks are mentioned in the candidate's skills.",
+        "No machine learning frameworks are referenced in the candidate's resume.",
+        "No machine learning frameworks are referenced in the candidate's portfolio notes.",
+        "The information about machine learning frameworks was sourced from sample_resume.pdf.",
+        "The information about machine learning frameworks was sourced from portfolio_notes.txt."
+      ],
+      "supported": [
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    "answer_relevancy": {
+      "score": 0.888,
+      "generated_questions": [
+        "What machine learning frameworks does the candidate have experience with?",
+        "What machine learning frameworks does the candidate have experience with?",
+        "What machine learning frameworks does the candidate have experience with?"
+      ]
+    },
+    "context_precision": {
+      "score": 0.0,
+      "verdicts": [
+        false,
+        false,
+        false,
+        false
+      ],
+      "fraction_relevant": 0.0
+    }
+  }
+}

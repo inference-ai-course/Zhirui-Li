@@ -1,0 +1,47 @@
+{
+  "rows": [
+    {
+      "q": "What programming languages does this person know?",
+      "cp_no": 0.639,
+      "cp_yes": 1.0,
+      "f_no": 0.85,
+      "f_yes": 0.833
+    },
+    {
+      "q": "What machine learning frameworks have they used?",
+      "cp_no": 0.0,
+      "cp_yes": 0.0,
+      "f_no": 1.0,
+      "f_yes": 1.0
+    },
+    {
+      "q": "What relational databases do they know?",
+      "cp_no": 1.0,
+      "cp_yes": 0.833,
+      "f_no": 0.875,
+      "f_yes": 0.667
+    },
+    {
+      "q": "What did they study?",
+      "cp_no": 0.5,
+      "cp_yes": 0.0,
+      "f_no": 1.0,
+      "f_yes": 0.667
+    },
+    {
+      "q": "What was their role at their last job?",
+      "cp_no": 0.417,
+      "cp_yes": 0.639,
+      "f_no": 0.867,
+      "f_yes": 0.75
+    }
+  ],
+  "mean": {
+    "cp_no": 0.5112,
+    "cp_yes": 0.4944,
+    "f_no": 0.9184000000000001,
+    "f_yes": 0.7834,
+    "cp_delta": -0.01679999999999998,
+    "f_delta": -0.13500000000000012
+  }
+}

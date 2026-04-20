@@ -1,0 +1,11 @@
+Week 4 -- Setup Summary
+==========================
+Path:           A
+Default model:  claude-sonnet-4-6
+API key set:    True
+Test call:      OK (0.1s)
+
+Outputs dir:    ..\outputs
+Rationale file: outputs/path_selection.md
+
+Ready for nb02 (Document Loading).

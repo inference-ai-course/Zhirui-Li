@@ -1,0 +1,55 @@
+# ============================================================
+# Week 4: Retrieval-Augmented Generation (RAG)
+# ============================================================
+# Install: pip install -r requirements.txt
+#
+# SYSTEM PACKAGES (none required for this week)
+# ============================================================
+
+# --- Core (inherited) ---
+jupyter>=1.0.0
+ipykernel>=6.0.0
+python-dotenv>=1.0.0
+requests>=2.31.0
+pydantic>=2.6.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+scikit-learn>=1.3.0       # PCA visualization in nb04
+
+# --- Path A: Claude API ---
+anthropic>=0.40.0
+
+# --- Path B: Ollama (no Python pkg needed; install ollama serve separately) ---
+ollama>=0.1.0           # uncomment if you want the Python client too
+
+# --- Week 4: Document loading ---
+pymupdf>=1.24.0           # PyMuPDF -- primary PDF extractor (fast, layout-aware)
+pypdf>=4.0.0              # Fallback / comparison extractor
+beautifulsoup4>=4.12.0    # Web page loader
+
+# --- Week 4: Embeddings ---
+sentence-transformers>=3.0.0   # Local embeddings + cross-encoders
+tiktoken>=0.7.0                # OpenAI-style token counting
+voyageai>=0.2.0              # (optional) Voyage embeddings API
+cohere>=5.0.0                # (optional) Cohere embeddings + Rerank
+openai>=1.40.0               # (optional) OpenAI embeddings
+
+# --- Week 4: Vector stores ---
+faiss-cpu>=1.8.0          # Local in-memory FAISS index (fastest)
+chromadb>=0.5.0           # Persistent vector DB (simplest)
+qdrant-client>=1.10.0     # Production-grade store; in-memory mode for nb05
+
+# --- Week 4: Retrieval (sparse + advanced) ---
+rank-bm25>=0.2.2          # BM25 for hybrid search
+
+# --- Week 4: Reranking ---
+flashrank>=0.2.9          # Lightweight reranker (no torch needed)
+
+# --- Week 4: Optional FastAPI bonus (nb08) ---
+fastapi>=0.110.0
+uvicorn>=0.27.0
+
+# --- Week 4: Optional production eval frameworks ---
+ragas>=0.2.0            # Standard RAG eval framework (LLM-judge based)
+deepeval>=2.0.0         # pytest-style eval gates
+trulens-eval>=1.0.0     # Tracing + dashboards

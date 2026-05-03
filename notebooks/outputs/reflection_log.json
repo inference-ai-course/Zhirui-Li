@@ -1,0 +1,8 @@
+[
+  {
+    "notebook": "08",
+    "title": "Project Integration",
+    "reflection": "\nTODO 1: Second Skill Added\n\nSkills implemented and registered:\n\n1. Resume Skill (Fine-tuned LoRA)\n   - Name: hw5-resume-skill\n   - Keywords: scott, background, experience, skills, projects, resume\n   - Purpose: Answer specific questions about Scott's background\n   - Model: Fine-tuned from NB05/06\n\n2. General Q&A Skill (Ollama base)\n   - Name: general-qa\n   - Keywords: explain, what is, how does, why, define, describe\n   - Purpose: Answer general knowledge questions\n   - Model: Ollama qwen3.5:27b\n\nRouting Test Results: 4/4 (100% accuracy)\n\nHow the router works:\nThe SkillResolver examines the query for keyword matches:\n- Resume keywords (scott, background, experience) \u2192 Route to resume skill\n- General keywords (explain, what is, how does) \u2192 Route to general Q&A skill\n\nThis ensures resume-specific questions get detailed, accurate answers from the \nfine-tuned model, while general questions use the lightweight base model for efficiency.\n\nExample routing:\n- \"What is Scott's background?\" \u2192 Resume skill (matches \"scott\")\n- \"What is gradient descent?\" \u2192 General Q&A (matches \"what is\")\n- \"How does backpropagation work?\" \u2192 General Q&A (matches \"how does\")\n\nBenefits of multi-skill routing:\n1. Cost efficiency: Fine-tuned models only for resume questions\n2. Performance: Right tool for each task\n3. Scalability: Easy to add more skills (e.g., code help, technical concepts)\n4. Better UX: Specialized responses for each domain\n\nThe system successfully routes 4/4 test queries correctly,\ndemonstrating effective skill separation and specialization.\n",
+    "timestamp": "2026-05-03T17:42:00.386248"
+  }
+]

@@ -1,0 +1,7 @@
+{
+  "dpo_training": {},
+  "dpo_dataset_size": 0,
+  "manual_pairs_count": 3,
+  "grpo_reward_fn": "make_gsm8k_reward_fn (pattern: #### number)",
+  "resume_reward_fn": "make_resume_qa_reward_fn (keywords + min_words check)"
+}

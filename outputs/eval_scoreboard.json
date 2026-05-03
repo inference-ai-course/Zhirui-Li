@@ -1,0 +1,48 @@
+{
+  "scores": [
+    3,
+    3,
+    3,
+    3,
+    3
+  ],
+  "mean": 3,
+  "pass_rate": 1.0,
+  "details": [
+    {
+      "question": "Where did Scott complete his undergraduate education and what did he study?",
+      "reference": "",
+      "model_answer": "I don't have enough information to answer your question, as you haven't specified which Scott you're referring to. There are many notable people named Scott. Could you please provide more context, such as:\n\n- Scott's full name\n- Their profession or field\n- Any other identifying details\n\nThis will help me give you accurate information about their undergraduate education and studies.",
+      "score": 3,
+      "judge_response": "Error: 'dict' object has no attribute 'strip'"
+    },
+    {
+      "question": "What programming languages and frameworks does Scott have experience with?",
+      "reference": "",
+      "model_answer": "I don't have any information about Scott's programming experience from our conversation. Could you provide more context about which Scott you're referring to? Are you asking about:\n\n- A specific person you know\n- Someone from a resume or profile you're reviewing\n- A colleague or team member\n- Someone mentioned in a document you're working with\n\nIf you can share more details about Scott or provide relevant information about their background, I'd be happy to help analyze their programming languages and framework experience.",
+      "score": 3,
+      "judge_response": "Error: 'dict' object has no attribute 'strip'"
+    },
+    {
+      "question": "Describe Scott's most recent work experience and his key responsibilities.",
+      "reference": "",
+      "model_answer": "I don't have any information about which Scott you're referring to or details about their work experience. Could you please provide more context about who Scott is? For example:\n\n- Scott's full name\n- The company or organization they work for\n- The industry or field they're in\n- Any other identifying details\n\nWith more specific information, I'd be happy to help you learn about their professional background and responsibilities.",
+      "score": 3,
+      "judge_response": "Error: 'dict' object has no attribute 'strip'"
+    },
+    {
+      "question": "What is one notable project or achievement Scott is proud of from his career?",
+      "reference": "",
+      "model_answer": "I don't have enough context to know which Scott you're referring to. There are many professionals named Scott across different industries and fields. Could you please provide more details about which Scott you're asking about? For example:\n\n- Their last name\n- Their profession or industry\n- The company they work for\n- Any other identifying information\n\nWith more specific information, I'd be happy to help you learn about their notable projects or achievements.",
+      "score": 3,
+      "judge_response": "Error: 'dict' object has no attribute 'strip'"
+    },
+    {
+      "question": "What kind of roles or opportunities is Scott currently looking for?",
+      "reference": "",
+      "model_answer": "I don't have any information about a specific person named Scott or what roles they might be seeking. Could you provide more context about which Scott you're referring to? For example:\n\n- Their last name or professional background\n- The industry or field they work in\n- Where you encountered information about their job search\n- Any other identifying details\n\nWith more specific information, I'd be happy to help you find relevant details about their career interests or job search, if that information is publicly available.",
+      "score": 3,
+      "judge_response": "Error: 'dict' object has no attribute 'strip'"
+    }
+  ]
+}
